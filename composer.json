@@ -1,0 +1,27 @@
+{
+    "name": "ashlyquezada/e-name",
+    "description": "AshlyQuezada",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ashly Quezada",
+            "email": "ash.que95@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:AshlyQuezada/email.git"
+        }
+    ], 
+    "require": {
+        "mailhog/mailhog": "^0.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
